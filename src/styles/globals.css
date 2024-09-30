@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/violet.css";
+@import "@radix-ui/colors/mauve.css";
 
 :root {
   --background: #ffffff;
@@ -25,3 +28,5 @@ body {
     text-wrap: balance;
   }
 }
+
+/* reset */
